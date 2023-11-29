@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{1a99f3d1-96dd-4396-824a-91bce35cb697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{95440ba8-abbf-4750-b4f9-3616b342e2e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation">
+      <UniqueIdentifier>{2b9ba8f6-5eda-4796-b0ea-bd9f03ba4fd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Entities">
+      <UniqueIdentifier>{72800a77-8541-4036-995b-41815253a534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Remote">
+      <UniqueIdentifier>{5010de5d-73a0-42be-b161-bea62edba69a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{12ea5f46-3d5b-4861-a4d7-a234b4ac72fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\DTO">
+      <UniqueIdentifier>{8bc5ea7b-e869-4e72-8251-606700bcc921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\DTO\PackageDTO">
+      <UniqueIdentifier>{80abd8d3-da7a-450d-8209-5bf839101906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation\Home">
+      <UniqueIdentifier>{5d4b44ed-a033-4dbc-93e7-3643cbdad209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation\Main">
+      <UniqueIdentifier>{60d72c94-ef34-4199-95da-9f54992876b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="User.h">
+      <Filter>Domain\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="DillerOffice.h">
+      <Filter>Domain\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Staff.h">
+      <Filter>Domain\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Package.h">
+      <Filter>Domain\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EndPoint.h">
+      <Filter>Data\Remote</Filter>
+    </ClInclude>
+    <ClInclude Include="PackageDTO.h">
+      <Filter>Core\DTO\PackageDTO</Filter>
+    </ClInclude>
+    <ClInclude Include="Home.h">
+      <Filter>Presentation\Home</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Presentation\Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
